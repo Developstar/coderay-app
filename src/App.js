@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h1>CodeRay</h1>
       <p>Checkout our website</p>
+      <p>Another edit</p>
     </div>
   );
 }
