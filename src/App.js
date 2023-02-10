@@ -1,8 +1,8 @@
 import './App.css';
+import {Routes, Route} from "react-router-dom"
+import CodeRay from './pages/CodeRay';
+import SignUp from './pages/SignUp';
 
-import Home from "./Pages/Home"
-import CodeRay from './Pages/CodeRay';
-import SignUp from './Pages/SignUp';
 
 function App() {
   return (
