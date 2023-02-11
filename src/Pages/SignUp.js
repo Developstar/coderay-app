@@ -1,14 +1,15 @@
 import React from "react"
 import "../components/SIgnUp/SignupStyles.css"
 import image from "../components/SIgnUp/Images/astronot.gif"
+import Header from "../components/Header"
 
 const SignUp = () => {
     return (
         <section className="signup_page">
-            
+            <Header/>
             <div className="signup_page_content">
                 <h1>CodeRay</h1>
-                <p> welcome to our app</p>
+                
                 <div className="signup_gif">
                     <img src={image} alt= "gif" />
                 </div>

@@ -16,21 +16,24 @@ body{
     flex-direction: row;
     justify-content: center;
     height: 100vh;
-    background: #03001C;
+    background: black;
 }
 
 .signup_page_content{
-    border: 1px solid red;
+   
     width: 50%;
-    background: white;
-    color: black;
-    height: 90vh;
-    margin-top: 10vh;
+    background: #03001C;
+    color: white;
+    height: 82vh;
+    margin-top: 18vh;
+    margin-left: 4rem;
     text-align: center;
    
 }
 
-
+.signup_page_content h1{
+    margin-top: 1rem;
+}
 
 .signup_gif img{
     width: 20rem;
@@ -39,9 +42,10 @@ body{
 
 .signup_form_wrapper{
     border: 1px solid green;
-    width: 50%;
-    height: 80vh;
-    margin-top: 10vh;
+    width: 35%;
+    height: 82vh;
+    margin-top: 18vh;
+    margin-right: 4rem;
     background: white;
     
 }
@@ -58,6 +62,7 @@ form{
 
 .form_heading{
     text-align: center;
+    margin-top: 1rem;
 }
 
 
